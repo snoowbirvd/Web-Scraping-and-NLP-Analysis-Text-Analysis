@@ -120,3 +120,4 @@ plt.title('Most Common Words in Moby Dick')
 plt.show()
 
 ```
+![](https://github.com/snoowbirvd/Web-Scraping-and-NLP-Analysis-Text-Analysis/blob/f190aae6f10c156f60d2cffac645395aad3c66e1/Most%20Common%20Words.png)
