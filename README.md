@@ -35,12 +35,6 @@ Your project will follow these steps:
 import requests
 from bs4 import BeautifulSoup
 ```
-- Python two essential modules for web scraping: Requests and Beautiful Soup
-```
-import nltk
-from collections import Counter
-import matplotlib.pyplot as plt
-```
 ### 1. Fetching HTML
 To start the web scraping, fetch the HTML content of a webpage via request
 ```
