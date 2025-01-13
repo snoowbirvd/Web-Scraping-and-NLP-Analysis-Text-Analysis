@@ -56,7 +56,9 @@ moby_text = html_soup.get_text() # Get the text out of the soup
 ### 3. Regex Tokenizer via nltk (Natural Language Toolkit) library
 Use RegexpTokenizer, a tokenizer (splitting a string of text into individual pieces) from the nltk library
 \w+ - extract only the words (alphanumeric characters) from the text, excluding any punctuation or special characters
-```                                               
+```
+import nltk
+from nltk.tokenize import RegexpTokenizer                                            
 # Create a tokenizer
 tokenizer = nltk.tokenize.RegexpTokenizer('\w+')
 
